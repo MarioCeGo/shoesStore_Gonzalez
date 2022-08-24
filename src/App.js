@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
+import ItemListContainer from './container/ItemListContainer';
 
 function App() {
   return (
@@ -8,18 +9,8 @@ function App() {
       <NavBar/>
       <header className="App-header">
         
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello user 
-        </p>
-        <a
-          className="App-link"
-          href="https://c.tenor.com/icxnIYgzZIwAAAAC/baile-del-troleo-esqueleto.gif"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ItemListContainer greeting="invitado" color="red"/>
+        
       </header>
     </div>
   );
