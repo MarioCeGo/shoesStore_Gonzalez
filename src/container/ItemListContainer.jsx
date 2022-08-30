@@ -1,6 +1,8 @@
-const ItemListContainer = ({greeting, color}) =>{
+import ItemCount from "../components/ItemCount"
+
+const ItemListContainer = () =>{
     return(
-        <h1 style={{backgroundColor: color}}>Hola {greeting}</h1>
+        <ItemCount stock="5" initial="1"/>
     )
 }
 
