@@ -1,8 +1,10 @@
 import ItemCount from "../components/ItemCount"
+import ItemList from "../components/ItemList"
 
-const ItemListContainer = () =>{
+const ItemListContainer = ({prods}) =>{
     return(
-        <ItemCount stock="5" initial="1"/>
+        //<ItemCount stock="5" initial="1"/>
+        <ItemList prods={prods}/>
     )
 }
 
