@@ -49,3 +49,31 @@ code {
   /* flex-direction: column; */
   flex-wrap: wrap;
 }
+.item-info{
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.item-info button{
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  background-color: #4CAF50;
+  color: white;
+}
+
+.container-item-detail img{
+  width: 500px;
+}
+.container-item-detail{
+  padding-left: 150px;
+  padding-right: 150px;
+  display: grid;
+  grid-template-areas: "img info";
+  grid-template-columns: 1fr 1fr;
+}

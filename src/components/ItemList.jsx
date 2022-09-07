@@ -1,7 +1,7 @@
 import Item from "./Item";
 
 const ItemList = ({prods}) => {
-    
+    return prods
     return (
         <div className="container-products">
             {prods.map((prod)=>{
